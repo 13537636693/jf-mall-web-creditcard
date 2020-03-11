@@ -9,7 +9,7 @@ if (urlParamsStr) {
 }
 export default {
   timeout: 300000,
-  baseUrl: process.env.NODE_ENV === 'production' ? '/jf-mall-service-auth' : 'http://127.0.0.1:9528/',
+  baseUrl: process.env.NODE_ENV === 'production' ? '/jf-mall-service-auth' : 'http://localhost:9999/jf-mall-service-auth/',
   errorMsg: {
     repeat: '操作過於頻繁，請稍後',
     link_failure: '連接服務器失敗，請檢查您的網絡狀態',

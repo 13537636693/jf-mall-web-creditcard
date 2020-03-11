@@ -23,7 +23,8 @@ export default {
       console.log(res);
       if (res &&  res.head.code == '100000') {
         console.log(res);
-        this.$router.push({ name: 'list_bill' });
+        console.log('route to /list_bill');
+        this.$router.push({path: '/list_bill' });
         console.log('this.$router.push({ name: list_bill });');
       }
       else

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "./precache-manifest.e0880bfdbd3ef496b872870e0e0c0f9c.js"
+  "precache-manifest.33f6c8260edb9af86a9bfbef42841e39.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "jf-mall-web-creditcard"});

@@ -9,6 +9,7 @@ const routes = [
   {
     path: '*',
     redirect: '/',
+    meta:{}
   },
   {
     path: '/home',
