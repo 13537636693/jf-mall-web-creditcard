@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.dff757e6a6b1177b84c9f75d129fee1b.js"
+  "precache-manifest.46dbca61dd83b373f19c3acca5eaba77.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "uuu"});
+workbox.core.setCacheNameDetails({prefix: "jf-mall-web-creditcard"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {

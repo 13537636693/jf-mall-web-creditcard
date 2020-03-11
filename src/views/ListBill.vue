@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>总欠款：{{ msg }}</h1>
-    <table v-for="(item, index) in sortItems  :key="item.id"">
+    <table v-for="(item, index) in sortItems ">
       <tr>
       <td align="left"> {{ item.blankName }}</td>
       <td align="left"> {{ item.owner }}</td>

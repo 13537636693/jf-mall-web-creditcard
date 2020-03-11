@@ -1,5 +1,5 @@
 {
-  "name": "uuu",
+  "name": "jf-mall-web-creditcard",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -40,10 +40,10 @@
       "eslint:recommended"
     ],
     "rules": {
-       "no-console":"off"
+      "no-console": "off"
     },
     "parserOptions": {
       "parser": "babel-eslint"
     }
- }
+  }
 }
